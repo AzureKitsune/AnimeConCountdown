@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    background-color: #020202;
+    color: #ffffff;
+    padding: 2em;
+}
+
+a:visited {
+    color: gold;
+}
+
+div#main-content * {
+    float: left;
+}
+
+div.convention-item {
+    width: 20em;
+    height: 12em;
+    background-color: darkslategray;
+    border-radius: 1em;
+    padding: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+div.convention-item p {
+    font-size: 2em;
+}
