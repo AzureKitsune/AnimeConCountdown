@@ -33,7 +33,7 @@
     }
 
     $(document).ready(function() {
-        $.get("data/conventions.json", function(data) {
+        $.get("https://raw.githubusercontent.com/AzureKitsune/AnimeConCountdown/master/data/conventions.json", function(data) {
         //fakeGet(function(data) {
             var jsonData = JSON.parse(data);
     
