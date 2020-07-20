@@ -9,6 +9,10 @@ a:visited {
     color: gold;
 }
 
+div#main-content {
+    padding-bottom: 1em;
+}
+
 div#main-content * {
     float: left;
 }
