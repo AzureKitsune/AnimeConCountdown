@@ -1,0 +1,10 @@
+{
+    "conventions": [
+        { "name": "Anime Central 2021", "date": "2021-05-21", "website": "https://www.acen.org/"},
+        { "name": "Anime Expo 2021", "date": "2021-07-02", "website": "https://www.anime-expo.org/"},
+        { "name": "Anime Milwaukee 2021 (*)", "date": "2021-02-18",  "website": "https://animemilwaukee.org/"},
+        { "name": "Anime NYC 2020", "date": "2020-11-20",  "website": "http://animenyc.com/"},
+        { "name": "Daisho Con 2020", "date": "2020-11-20", "website": "http://www.daishocon.org/"},
+        { "name": "Kitsunekon 2021", "date": "2021-07-16", "website": "https://kitsunekon.com/"}
+    ]
+}
