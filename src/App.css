@@ -1,0 +1,22 @@
+body {
+  background-color: #282c34;
+  color: white;
+}
+
+a:visited {
+  color: goldenrod;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+div#main-content {
+  margin: 0em 5em;
+}

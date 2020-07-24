@@ -1,0 +1,14 @@
+div.convention-item {
+    width: 20em;
+    height: 12em;
+    background-color: darkslategray;
+    border-radius: 1em;
+    padding: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    float: left;
+}
+
+p.convention-timeleft {
+    font-size: 2em;
+}
