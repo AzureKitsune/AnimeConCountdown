@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AnimeConCountdown/static/css/main.05e0c03c.chunk.css",
+    "main.css": "/AnimeConCountdown/static/css/main.4440c956.chunk.css",
     "main.js": "/AnimeConCountdown/static/js/main.ff1f7d8c.chunk.js",
     "main.js.map": "/AnimeConCountdown/static/js/main.ff1f7d8c.chunk.js.map",
     "runtime-main.js": "/AnimeConCountdown/static/js/runtime-main.9a18e937.js",
@@ -8,15 +8,15 @@
     "static/js/2.a61118b4.chunk.js": "/AnimeConCountdown/static/js/2.a61118b4.chunk.js",
     "static/js/2.a61118b4.chunk.js.map": "/AnimeConCountdown/static/js/2.a61118b4.chunk.js.map",
     "index.html": "/AnimeConCountdown/index.html",
-    "precache-manifest.83c74b100102488fa611328d85f029be.js": "/AnimeConCountdown/precache-manifest.83c74b100102488fa611328d85f029be.js",
+    "precache-manifest.b8526f2599e1262a4e8cdbca6128790f.js": "/AnimeConCountdown/precache-manifest.b8526f2599e1262a4e8cdbca6128790f.js",
     "service-worker.js": "/AnimeConCountdown/service-worker.js",
-    "static/css/main.05e0c03c.chunk.css.map": "/AnimeConCountdown/static/css/main.05e0c03c.chunk.css.map",
+    "static/css/main.4440c956.chunk.css.map": "/AnimeConCountdown/static/css/main.4440c956.chunk.css.map",
     "static/js/2.a61118b4.chunk.js.LICENSE.txt": "/AnimeConCountdown/static/js/2.a61118b4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9a18e937.js",
     "static/js/2.a61118b4.chunk.js",
-    "static/css/main.05e0c03c.chunk.css",
+    "static/css/main.4440c956.chunk.css",
     "static/js/main.ff1f7d8c.chunk.js"
   ]
 }
