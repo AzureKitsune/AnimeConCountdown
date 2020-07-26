@@ -1,12 +1,12 @@
 {
     "conventions": [
-        { "name": "Anime Central 2021", "date": "2021-05-21", "website": "https://www.acen.org/"},
-        { "name": "Anime Expo 2021", "date": "2021-07-02", "website": "https://www.anime-expo.org/"},
-        { "name": "Anime Milwaukee 2021 (*)", "date": "2021-02-18",  "website": "https://animemilwaukee.org/"},
-        { "name": "Anime NYC 2020", "date": "2020-11-20",  "website": "http://animenyc.com/"},
-        { "name": "Daisho Con 2020", "date": "2020-11-20", "website": "http://www.daishocon.org/"},
-        { "name": "Kitsunekon 2021", "date": "2021-07-16", "website": "https://kitsunekon.com/"},
-        { "name": "Sakura-Con 2021", "date": "2021-04-02", "website": "http://sakuracon.org/"},
-        { "name": "Youmacon 2020", "date": "2020-10-30", "website": "https://www.youmacon.com/"}
+        { "name": "Anime Central 2021", "date": "2021-05-21", "website": "https://www.acen.org/", "confirmed": "true"},
+        { "name": "Anime Expo 2021", "date": "2021-07-02", "website": "https://www.anime-expo.org/", "confirmed": "true"},
+        { "name": "Anime Milwaukee 2021", "date": "2021-02-18",  "website": "https://animemilwaukee.org/", "confirmed": "false"},
+        { "name": "Anime NYC 2020", "date": "2020-11-20",  "website": "http://animenyc.com/", "confirmed": "true"},
+        { "name": "Daisho Con 2020", "date": "2020-11-20", "website": "http://www.daishocon.org/", "confirmed": "true"},
+        { "name": "Kitsunekon 2021", "date": "2021-07-16", "website": "https://kitsunekon.com/", "confirmed": "true"},
+        { "name": "Sakura-Con 2021", "date": "2021-04-02", "website": "http://sakuracon.org/", "confirmed": "true"},
+        { "name": "Youmacon 2020", "date": "2020-10-30", "website": "https://www.youmacon.com/", "confirmed": "true"}
     ]
 }

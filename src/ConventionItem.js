@@ -57,6 +57,7 @@ class ConventionsItem extends React.Component {
             date: this.props.convention.date,
             website: this.props.convention.website,
             name: this.props.convention.name,
+            dateConfirmed: this.props.convention.confirmed,
             timeLeft: ""
         })
     }
@@ -66,6 +67,10 @@ class ConventionsItem extends React.Component {
             <div convention-date={this.props.convention.date} class="convention-item">
                 <h3 class="convention-header"><a href={this.props.convention.website}>{this.props.convention.name}</a></h3>
                 <p class="convention-timeleft">{this.state.timeLeft}</p>
+
+                { this.props.convention.confirmed == "false" && 
+                    <span>The date of this convention hasn't been confirmed.</span>
+                }
             </div>
         );
     }
