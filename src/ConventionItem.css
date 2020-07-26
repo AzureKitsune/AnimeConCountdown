@@ -3,10 +3,18 @@ div.convention-item {
     border-radius: 0.5em;
 }
 
+div.convention-item-unconfirmed {
+    background-color: darkolivegreen;
+}
+
 @media only screen and (min-width: 240px) {
     div.convention-item {
         width: 100%;
         height: 3em;
+    }
+
+    div.convention-item-unconfirmed {
+        height: 5em;
     }
 
     h3.convention-header {
@@ -23,7 +31,14 @@ div.convention-item {
         text-align: left;
         padding-left: 1.1em;
         padding-top: 0.25em;
+        padding-bottom: 0;
         font-size: 0.85em;
+    }
+
+    p.convention-unconfirmed-msg {
+        font-size: 0.7em;
+        text-align: left;
+        padding-left: 1.4em;
     }
 }
 
@@ -31,7 +46,7 @@ div.convention-item {
 @media only screen and (min-width: 560px) {
     div.convention-item {
         width: 16em;
-        height: 10em;
+        height: 12em;
         margin: 0.75em;
         float: left;
         padding: 0 0.8em;
@@ -52,5 +67,12 @@ div.convention-item {
         font-size: 1.5rem;
         padding: initial;
         text-align: center;
+    }
+
+    p.convention-unconfirmed-msg {
+        font-size: 0.7em;
+        margin-bottom: 1em;
+        padding-left: unset;
+        text-align: left;
     }
 }

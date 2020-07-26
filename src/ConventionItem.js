@@ -1,5 +1,5 @@
 import React from 'react';
-import './ConventionsItem.css';
+import './ConventionItem.css';
 
 
 class ConventionsItem extends React.Component {
@@ -63,13 +63,19 @@ class ConventionsItem extends React.Component {
     }
 
     render(props) {
+        var classNames = "convention-item";
+
+        if (this.props.convention.confirmed == "false") {
+            classNames += " convention-item-unconfirmed";
+        }
+
         return (
-            <div convention-date={this.props.convention.date} class="convention-item">
-                <h3 class="convention-header"><a href={this.props.convention.website}>{this.props.convention.name}</a></h3>
-                <p class="convention-timeleft">{this.state.timeLeft}</p>
+            <div convention-date={this.props.convention.date} className={classNames}>
+                <h3 className="convention-header"><a href={this.props.convention.website}>{this.props.convention.name}</a></h3>
+                <p className="convention-timeleft">{this.state.timeLeft}</p>
 
                 { this.props.convention.confirmed == "false" && 
-                    <span>The date of this convention hasn't been confirmed.</span>
+                    <p className="convention-unconfirmed-msg">The date of this convention hasn't been confirmed.</p>
                 }
             </div>
         );
