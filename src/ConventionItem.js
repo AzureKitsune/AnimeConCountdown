@@ -64,7 +64,7 @@ class ConventionsItem extends React.Component {
     render(props) {
         return (
             <div convention-date={this.props.convention.date} class="convention-item">
-                <h3><a href={this.props.convention.website}>{this.props.convention.name}</a></h3>
+                <h3 class="convention-header"><a href={this.props.convention.website}>{this.props.convention.name}</a></h3>
                 <p class="convention-timeleft">{this.state.timeLeft}</p>
             </div>
         );
