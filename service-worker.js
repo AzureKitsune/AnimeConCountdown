@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/AnimeConCountdown/precache-manifest.f379e86da237a2386d5c52aa432b0fa6.js"
+  "/AnimeConCountdown/precache-manifest.83c74b100102488fa611328d85f029be.js"
 );
 
 self.addEventListener('message', (event) => {
