@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8de421c31598f8b70c734f374252394b",
+    "revision": "6a2c9790f735c0f82f279439690a1cf9",
     "url": "/AnimeConCountdown/index.html"
   },
   {
-    "revision": "c0d6cc6eed813aac4b59",
-    "url": "/AnimeConCountdown/static/css/main.4440c956.chunk.css"
+    "revision": "b11d600cebcc22bb6d0c",
+    "url": "/AnimeConCountdown/static/css/main.5051fc8b.chunk.css"
   },
   {
     "revision": "c3cdaa56443484ffbaf6",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/AnimeConCountdown/static/js/2.a61118b4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c0d6cc6eed813aac4b59",
+    "revision": "b11d600cebcc22bb6d0c",
     "url": "/AnimeConCountdown/static/js/main.ff1f7d8c.chunk.js"
   },
   {
