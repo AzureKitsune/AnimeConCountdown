@@ -11,6 +11,7 @@ div.convention-item-unconfirmed {
     div.convention-item {
         width: 100%;
         height: 3em;
+        padding: 0.6em 0.8em 0 0.8em;
     }
 
     div.convention-item-unconfirmed {
